@@ -95,9 +95,6 @@ body {
     background-color: #3b0087;
     color: white;
 }
-
-
-
 h2 {
     text-transform: uppercase;
     font-weight: bold;
@@ -158,6 +155,17 @@ h2 {
 }
 .padding-color {
     background-color: thistle;
+}
+.sprint2-body h4 {
+    margin-left: 25px;
+}
+.sprint2-body p, .sprint-1-cul p {
+    margin-left: 50px;
+    text-align: justify;
+}
+.sprint2-body ul {
+    margin-left: 50px;
+    text-align: justify;
 }
 
 /* Layouts */
