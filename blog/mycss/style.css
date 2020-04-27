@@ -159,7 +159,7 @@ h2 {
 .sprint2-body h4 {
     margin-left: 25px;
 }
-.sprint2-body p, .sprint-1-cul p {
+.sprint2-body p, .sprint-1-cul p, .sprint3-cul-blog p{
     margin-left: 50px;
     text-align: justify;
 }
