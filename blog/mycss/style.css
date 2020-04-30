@@ -159,10 +159,12 @@ h2 {
 .sprint2-body h4 {
     margin-left: 25px;
 }
-.sprint2-body p, .sprint-1-cul p, .sprint3-cul-blog p,{
+.sprint2-body p, .sprint-1-cul p, .sprint3-cul-blog p {
     margin-left: 50px;
     text-align: justify;
 }
+
+
 .sprint-3-tech-blog p{
     text-align: justify;
     margin-left: 25px;
