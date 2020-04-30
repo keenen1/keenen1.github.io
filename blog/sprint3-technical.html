@@ -7,7 +7,9 @@
         <title>Blog - Sprint 3 Technical</title>
         <link rel="stylesheet" href="mycss/style.css"><!-- <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
     </head>
+    
     <body>
         <div class="container row">
             <!-- Left Indent -->
@@ -34,48 +36,107 @@
                     </div>
                 </div>
                 <!-- Body Content -->
-                <h1>TECHNICAL BLOG</h1>
+                <div class="sprint-3-tech-blog">
+                    <h1>TECHNICAL BLOG</h1>
 
-                <h2>HTML vs CSS</h2>
-                <p>
-                    We can look at HTML and CSS using an analogy; for this instance let's use the human anatomy. The skeleton symbolises the main structure of the HTML which involves having the head, body and footer. The muscles and skin covering the skeleton can be seen as the CSS as it determines how the human looks like on the outside.
-                </p>
-                <p>
-                    To take it a step further, the organs are what makes the human function. Just like javascript, it acts as the brain of HTML and tells the webpage how to behave.
-                </p>
+                    <!-- HTML vs CSS-->
+                    <div>
+                        <h2>HTML vs CSS</h2>
+                            <p>
+                                We can look at HTML and CSS using an analogy; for this instance let's use the human anatomy. The skeleton symbolises the main structure of the HTML which involves having the head, body and footer. The muscles and skin covering the skeleton can be seen as the CSS as it determines how the human looks like on the outside.
+                            </p>
+                            <p>
+                                To take it a step further, the organs are what makes the human function. Just like javascript, it acts as the brain of HTML and tells the webpage how to behave.
+                            </p>
+                    </div>
+                    <!-- Loops Blog -->
+                    <div>
+                        <h2>Flow Control and Loops</h2>
+                            <p>
+                                In computer science, flow control is the order in which individual statements or codes are executed or evaluated.
+                            </p>
+                            <p>
+                                For familiarity, let's look at a daily task and see how flow control is used in the process. In this example, let's make use of the if-loop that we use in our heads when exiting the car:
+                            </p>
+                            <div class="flow-example">
+                                <img src="images/flow_control.png" alt="Flow Control Example">
+                            </div>
+                            <p>In plain English, when leaving the car:</p>
+                            <ul>
+                                <li>We ask ourselves if the engine is off</li>
+                                <li>If it is still on, turn the engine off</li>
+                                <li>If it is off, proceed to exiting the vehicle</li>
+                                <li>Lock the door before leaving the car</li>
+                            </ul>
+                    </div>
+                    <!-- The DOM Blog -->
+                    <div>
+                        <h2>The DOM</h2>
+                            <p>
+                                The DOM or Document Object Model is an interface that treats the HTML document as a hierarchal tree structure wherein each node is an object. With the use of JavaScript, HTML elements can be checked, added, changed, remove and many more actions to perform. Below is an example of a DOM Tree Structure:
+                            </p>
+                            <div>
+                                <div class="dom-example">
+                                    <img src="images/dom_tree" alt="DOM Tree">
+                                </div>
+                                <p>This is how we might interact with the DOM. Let's change the HTML content in the p tag using JavaScript as shown below:</p>
+                                <div class="dom-code-example">
+                                    <p><span class="code-comment">//somewhere along an HTML</span></p>
+                                    <p><span class="maroon-word">&lt;p <span class="red-word">id</span>=<span class="blue-word">"education"</span>&gt;</span>This is University<span class="maroon-word">&lt;/p&gt;</span><span class="code-comment"> //let's change this content</span></p>
+                                    <p><span class="maroon-word">&lt;script&gt;</span></p>
+                                    <p class="indent-line"><span class="blue-word">document</span>.<span class="yellow-word">getElementById</span>(<span class="maroon-word">"education"</span>).<span class="blue-word">innerHTML</span> = <span class="maroon-word">"This is DevAcademy!"</span>;</p>
+                                    <p><span class="maroon-word">&lt;/script&gt;</span></p>
+                                </div>
+                                <ul>
+                                    <li>In the example above, getElementById is a method, while innerHTML is a property.</li>
+                                    <li>The most common way to access an HTML element is to use the id of the element.</li>
+                                    <li>The getElementById method used id="education" to find the element.</li>
+                                    <li>The innerHTML property is useful for getting or replacing the content of HTML elements.</li>
+                                </ul>
+                            </div>
+                    </div>
+                    <!-- Arrays vs Objects Blog -->
+                    <div>
+                        <h2>Accessing Data: Arrays vs Objects</h2>
+                            <p>
+                                Arrays and Objects are very similar datatypes; both can hold a list of complex properties inside of them. 
+                            </p>
+                                <ul>
+                                    <li>Array properties can be accessed by using <em>bracket notation</em> along with the <em>number position</em> of the desired property.</li>
+                                    <li>Object properties can be accessed by using <em>dot notation</em> followed by the predefined <em>key</em>.</li>
+                                </ul>
 
-                <h2>Flow Control and Loops</h2>
-                <p>
-
-                </p>
-
-                <h2>The DOM</h2>
-                <p>
-                    
-                </p>
-
-                <h2>Accessing Data: Arrays vs Objects</h2>
-                <p>
-                    Arrays and Objects are very similar datatypes; both can hold a list of complex properties inside of them. 
-                </p>
-                <ul>
-                    <li>Array properties can be accessed by using <em>bracket notation</em> along with the <em>number position</em> of the desired property.</li>
-                    <li>Object properties can be accessed by using <em>dot notation</em> followed by the predefined <em>key</em>.</li>
-                </ul>
-
-                <div class="code-example">
-                    <p>var myArray = ["apples", "oranges", "bananas"]</p>
-                    <p>var myObject = {</p>
-                    <p>    name: "Keenen"</p>
-                    <p>    age: 24</p>
-                    <p>    gender: "male"<br>}</p>
+                            <div class="code-example">
+                                <p><span class="blue-word">var</span> myArrays = ["apples", "oranges", "bananas"]</p>
+                                <p><span class="blue-word">var</span> myObjects = {name: "Keenen", age: 24, gender: "male"}</p>
+                                <p><span class="blue-word">var</span> getOrangeFruit = myArray[1] <span class="code-comment">//how to access an Array</span></p>
+                                <p><span class="blue-word">var</span> getMyAge = myObjects.age <span class="code-comment">//how to access an Object</span></p>
+                                
+                            </div>
+                    </div>
+                    <!-- Functions Blog -->
+                    <div>
+                        <h2>What are Functions</h2>
+                            <p>
+                                A function is a block of code designed to perform a particular task. Not only can you encapsulate a chunk of code into the shortest name you can think of, but this can be invoked multiple times without having to re-write the whole chunk of code over and over again. This displays best practice and saves a lot of time and space. Below is an example of how to encapsulate a block of code inside a function and invoke that function multiple times.
+                            </p>
+                            <p>Imagine a robot limited to only two moves:</p>
+                            <ul>
+                                <li>turnRight()</li>
+                                <li>moveForward()</li>
+                            </ul>
+                            <p>Write a function to make the robot turn left and move forward.</p>
+                            <div class="code-example">
+                                <p><span class="blue-word">function</span> turnLeft() {</p>
+                                <p class="indent-line">turnRight();</p>
+                                <p class="indent-line">turnRight();</p>
+                                <p class="indent-line">turnRight();</p>
+                                <p>}<span class="code-comment"> //simplified and assigned to turnLeft()</span></p>
+                                <p>turnLeft(); <span class="code-comment">//the function is invoked</span></p>
+                                <p>moveForward();</p>
+                            </div>
+                    </div>
                 </div>
-
-                <h2>What are Functions</h2>
-                <p>
-                    A function is a collection of codes and commands that has the intention to be used multiple times for convenience sake.
-                </p>
-
             </div>
             <!-- Right Indent -->
             <div class="col-1">

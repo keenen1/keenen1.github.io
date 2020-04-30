@@ -159,26 +159,67 @@ h2 {
 .sprint2-body h4 {
     margin-left: 25px;
 }
-.sprint2-body p, .sprint-1-cul p, .sprint3-cul-blog p{
+.sprint2-body p, .sprint-1-cul p, .sprint3-cul-blog p,{
     margin-left: 50px;
     text-align: justify;
+}
+.sprint-3-tech-blog p{
+    text-align: justify;
+    margin-left: 25px;
 }
 .sprint2-body ul {
     margin-left: 50px;
     text-align: justify;
 }
+.dom-example img, .flow-example img{
+    width: 30%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.dom-code-example {
+    background-color: rgb(198, 201, 201);
+    color: black;
+    padding: 5px 20px 10px 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 75%;
+    font-family: 'PT Mono', monospace;
+}
 
 .code-example {
     background-color: rgb(198, 201, 201);
     color: black;
-    /* padding-left: 20px;
-    padding-top: 10px; */
-    padding: 10px 20px 10px 20px;
-    border-radius: 10px;
+    padding: 5px 20px 10px 5px;
+    border-radius: 5px;
     margin-top: 5px;
+    margin-left: 25px;
     margin-bottom: 10px;
-    width: 40%;
+    width: 57%;
+    font-family: 'PT Mono', monospace;
 }
+.code-comment {
+    color: rgb(72, 128, 16);
+}
+
+.indent-line {
+    text-indent: 40px;
+}
+.blue-word {
+    color: blue;
+}
+.red-word {
+    color: red;
+}
+.maroon-word {
+    color: maroon;
+}
+.yellow-word {
+    color: rgb(139, 139, 11);
+}
+
 
 /* Layouts */
 
