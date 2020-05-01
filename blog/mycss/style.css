@@ -159,11 +159,33 @@ h2 {
 .sprint2-body h4 {
     margin-left: 25px;
 }
-.sprint2-body p, .sprint-1-cul p, .sprint3-cul-blog p {
+.sprint2-body p, .sprint-1-cul p, .sprint3-cul-blog p, .sprint4-cul-blog p {
     margin-left: 50px;
     text-align: justify;
 }
-
+.sprint4-cul-blog a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #5A24A0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.sprint4-cul-blog h2 {
+    text-align: center;
+}
+.sprint4-cul-blog a {
+    background-color: yellow;
+}
+.sprint4-cul-blog li {
+    text-indent: 40px;
+}
+.sprint4-cul-blog span {
+    text-transform: lowercase;
+    color: white;
+    font-size: 15px;
+}
 
 .sprint-3-tech-blog p{
     text-align: justify;
