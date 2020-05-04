@@ -187,6 +187,54 @@ h2 {
     font-size: 15px;
 }
 
+.confidence-block {
+    background-color: #5A24A0;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+}
+.confidence-4 {
+    background-color: green;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+    text-align: center;
+}
+.confidence-4-body {
+    background-color: green;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+    text-align: center;
+}
+.confidence-3 {
+    background-color: yellow;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+    text-align: center;
+    color: black;
+}
+.confidence-2 {
+    background-color: orange;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+    text-align: center;
+    color: black;
+}
+.confidence-1 {
+    background-color: red;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+    text-align: center;
+}
+.psuedo-block {
+    display: flex;
+    font-size: 18px;
+}
+
 .sprint-3-tech-blog p{
     text-align: justify;
     margin-left: 25px;
