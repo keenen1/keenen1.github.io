@@ -230,9 +230,20 @@ h2 {
     margin-left: 15px;
     text-align: center;
 }
-.psuedo-block {
+.techniques-block {
     display: flex;
-    font-size: 18px;
+    font-size: 20px;
+}
+.techniques-body {
+    text-align: justify;
+    margin-left: 40px;
+}
+.problem-solving p {
+    margin-left: 40px;
+    text-align: justify;
+}
+.problem-solving span {
+    color: yellow;
 }
 
 .sprint-3-tech-blog p{
@@ -264,7 +275,7 @@ h2 {
 .code-example {
     background-color: rgb(198, 201, 201);
     color: black;
-    padding: 5px 20px 10px 5px;
+    padding: 3px 5px 5px 5px;
     border-radius: 5px;
     margin-top: 5px;
     margin-left: 25px;
@@ -272,8 +283,14 @@ h2 {
     width: 57%;
     font-family: 'PT Mono', monospace;
 }
+.code-example p {
+    margin-left: 25px;
+}
 .code-comment {
     color: rgb(72, 128, 16);
+}
+.example-arrow-function {
+    display: flex;
 }
 
 .indent-line {
@@ -289,7 +306,10 @@ h2 {
     color: maroon;
 }
 .yellow-word {
-    color: rgb(139, 139, 11);
+    color: rgb(146, 146, 17);
+}
+.black-word {
+    color: black;
 }
 
 
