@@ -245,7 +245,11 @@ h2 {
 .problem-solving span {
     color: yellow;
 }
-
+.sprint4-tech-blog img {
+    max-height: 80px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
 .sprint-3-tech-blog p{
     text-align: justify;
     margin-left: 25px;
