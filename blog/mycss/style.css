@@ -13,10 +13,7 @@ body {
     margin-right: auto;
     margin-top: 25px;
 }
-.header-img img:hover {
-    border-radius: 15px;
-    transition: 1s;
-}
+
 .right-text img {
     border-radius: 50%;
     width: 40px;
