@@ -13,6 +13,10 @@ body {
     margin-right: auto;
     margin-top: 25px;
 }
+.header-img img:hover {
+    border-radius: 15px;
+    transition: 1s;
+}
 .right-text img {
     border-radius: 50%;
     width: 40px;
@@ -53,6 +57,16 @@ body {
 .purpose-p a {
     color: white;
     font-weight: bold;
+    margin-left: 40px;
+    margin-left: 100px;
+}
+.purpose-p a:hover {
+    color: #3b0087;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .5s;
+    text-decoration: none;
 }
 .right-text {
     text-align: right;
@@ -94,7 +108,11 @@ body {
 .blog a:hover {
     background-color: #3b0087;
     color: white;
+    box-shadow: 10px 15px 20px rgb(0, 0, 0);
+    transition: 1s;
 }
+
+
 h2 {
     text-transform: uppercase;
     font-weight: bold;
@@ -159,7 +177,7 @@ h2 {
 .sprint2-body h4 {
     margin-left: 25px;
 }
-.sprint2-body p, .sprint-1-cul p, .sprint3-cul-blog p, .sprint4-cul-blog p {
+.sprint2-body p, .sprint-1-cul p, .sprint3-cul-blog p, .sprint4-cul-blog p, .sprint5-cul-blog p {
     margin-left: 50px;
     text-align: justify;
 }
@@ -180,11 +198,15 @@ h2 {
 }
 .sprint4-cul-blog li {
     text-indent: 40px;
+
 }
 .sprint4-cul-blog span {
     text-transform: lowercase;
     color: white;
     font-size: 15px;
+}
+.sprint5-cul-blog li {
+    list-style: none;
 }
 
 .confidence-block {
@@ -315,6 +337,47 @@ h2 {
 .black-word {
     color: black;
 }
+/* Footer */
+
+
+.footer {
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer li {
+    display: inline-block;
+    
+}
+
+.footer ul li {
+    list-style: none;
+    margin: 0 15px;  
+}
+.footer ul li .fa {
+    font-size: 30px;
+    line-height: 60px; 
+    transition: .5s;
+    color: #5A24A0;
+}
+.footer ul li a {
+    display: block;
+    transition: 1s;
+    width: 60px;
+    height: 60px;
+    color: #5A24A0;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+.footer ul li a:hover {
+    transform: translate(0, -10px);
+    transition: 1s;
+    cursor: pointer;
+}
+
 
 
 /* Layouts */
