@@ -51,11 +51,13 @@ body {
     background-color: white;
     color: #3b0087;
 }
+.purpose-p p {
+    text-align: center;
+    margin-left: 30px;
+}
 .purpose-p a {
     color: white;
     font-weight: bold;
-    margin-left: 40px;
-    margin-left: 100px;
 }
 .purpose-p a:hover {
     color: #3b0087;
