@@ -444,3 +444,19 @@ h2 {
     width: 91.66%;
 }
 
+@media (max-width: 1200px) {
+    body {
+        background-color: #3b0087;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(250, 144, 4);
+    }
+}
+@media (max-width: 320px) {
+    body {
+        background-color: pink;
+    }
+}
+
